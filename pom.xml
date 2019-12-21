@@ -18,28 +18,7 @@
 		<jetty.version>9.2.14.v20151106</jetty.version>
 	</properties>
 
-	<repositories>
-		<repository>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>central</id>
-			<name>Central Repository</name>
-			<url>https://repo.maven.apache.org/maven2</url>
-		</repository>
-		<repository>
-			<id>ci02.kaar.biz</id>
-			<name>ci01.kaar.biz-releases</name>
-			<url>https://ci.kaar-ma.com/artifactory/libs-release</url>
-		</repository>
-
-		<repository>
-			<id>ci04.kaar.biz</id>
-			<name>ci04.kaar.biz-snapshots</name>
-			<url>https://ci.kaar-ma.com/artifactory/libs-snapshot</url>
-		</repository>
-
-	</repositories>
+	
 
 	<dependencies>
 		<dependency>
