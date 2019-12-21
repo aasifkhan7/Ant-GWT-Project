@@ -1,0 +1,4 @@
+# Module onlyant
+# RPC service class, partial path of RPC policy file
+com.demo.gwt.client.GreetingService1, 93990C02D7F8239970E5F624AB3018F5.gwt.rpc
+com.demo.gwt.client.GreetingService, E5BCA32EA9D618262587267D306D6957.gwt.rpc
