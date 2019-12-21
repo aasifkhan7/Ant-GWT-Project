@@ -137,7 +137,7 @@
 	
 	<!--<taskdef resource="/Users/mykaarma/Downloads/aws-ant-task/src/main/resources/taskdefs.xml" classpath="/Users/mykaarma/Downloads/aws-ant-task/target/aws-ant-tasks-0.5-SNAPSHOT.jar" />-->
 
-	<taskdef resource="taskdefs.xml" classpath="/Users/mykaarma/Downloads/aws-ant-tasks-1.2.3/target/aws-java-sdk-ant-tasks-1.2.3.jar" />
+	<taskdef resource="taskdefs.xml" classpath="/home/jenkins/.m2/repository/com/amazonaws/aws-java-sdk-ant-tasks/1.2.3/aws-java-sdk-ant-tasks-1.2.3.jar" />
 
 	<target name="cdn-invalidation" description="Invalidation of static files">
 	        <!--<taskdef name="cloudfront" classpath="/Users/mykaarma/Downloads/aws-ant-task/target/aws-ant-tasks-0.5-SNAPSHOT.jar"  classname="it.corley.ant.CloudFront"/>-->
@@ -173,7 +173,7 @@
 	
 	
 	
-  <taskdef resource="taskdefs.xml" classpath="/Users/mykaarma/Downloads/aws-ant-tasks-1.2.3/target/aws-java-sdk-ant-tasks-1.2.3.jar" />
+  <taskdef resource="taskdefs.xml" classpath="/home/jenkins/.m2/repository/com/amazonaws/aws-java-sdk-ant-tasks/1.2.3/aws-java-sdk-ant-tasks-1.2.3.jar" />
 	
 	
   <!--<target name="upload" if="workCDN" depends="replacejs">-->
