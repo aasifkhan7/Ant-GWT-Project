@@ -1,4 +1,4 @@
 FROM jetty
 MAINTAINER Joel Handwell
 
-ADD ./ROOT.war /var/lib/jetty/webapps/ROOT.war
+ADD ./OnlyAnt.war /var/lib/jetty/webapps/OnlyAnt.war
