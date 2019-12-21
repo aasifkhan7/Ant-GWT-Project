@@ -467,6 +467,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+<!--
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>gwt-maven-plugin</artifactId>
@@ -483,7 +484,7 @@
                         <module>biz.kaar.service.Service</module>
                         <module>biz.kaar.desktop.notifier</module>
                     </modules>
-                    <!-- URL that should be opened by DevMode (gwt:run). -->
+                     URL that should be opened by DevMode (gwt:run). 
                     <runTarget>service.html</runTarget>
                     <hostedWebapp>war</hostedWebapp>
                     <warSourceDirectory>war</warSourceDirectory>
@@ -491,6 +492,7 @@
                     <compileReport>true</compileReport>
                 </configuration>
             </plugin>
+-->
             <plugin>
                 <artifactId>maven-eclipse-plugin</artifactId>
                 <version>2.7</version>
